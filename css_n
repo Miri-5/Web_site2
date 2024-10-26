@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(15, 165, 43, 0.457);
+    color: rgba(240, 255, 255, 0.669);
+    font-size: 15px;
+
+}
+h1{
+    text-align: center;
+    color: beige;
+}
+.a{
+    color: blue;
+}
+.B{
+    color: rgb(0, 255, 26);
+}
+.c{
+    color: rgb(251, 255, 0);
+}
+.d{
+    color: rgb(234, 0, 255);
+}
+
+@keyframes miri {
+    0%{
+        color: aquamarine;
+    }
+    22%{
+        color: #00a800;
+    }
+    65%{
+        color: rebeccapurple;
+    }
+    88%{
+        color: red;
+    }
+    100%{
+        color: darkorange;
+    }
+}
+h3:hover{
+    animation: miri 5s infinite;
+}
